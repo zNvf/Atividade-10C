@@ -1,0 +1,24 @@
+1: #include <stdio.h>
+2:
+3: int main() {
+4: float nota1, nota2, nota3, nota4, media;
+5:
+6: printf("Digite a nota 1: ");
+7: scanf("%f", &nota1);
+8:
+9: printf("Digite a nota 2: ");
+10: scanf("%f", &nota2);
+11:
+12: printf("Digite a nota 3: ");
+13: scanf("%f", &nota3);
+14:
+15: printf("Digite a nota 4: ");
+16: scanf("%f", &nota4);
+17:
+18: media = (nota1 + nota2 + nota3 + nota4) / 4;
+19:
+20: printf("A media das notas do aluno e: %.2f\n", media);
+21:
+22: return 0;
+23: }
+24:
