@@ -1,0 +1,15 @@
+1: #include <stdio.h>
+2:
+3: int main() {
+4:
+5: float peso_prato, valor_pagar;
+6:
+7: printf("Digite o peso do prato em quilos: ");
+8: scanf("%f", &peso_prato);
+9:
+10: valor_pagar = peso_prato * 45.0;
+11:
+12: printf("O valor a pagar e: R$%.2f\n", valor_pagar);
+13:
+14: return 0;
+15: }
