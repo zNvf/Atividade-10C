@@ -1,0 +1,24 @@
+1: #include <stdio.h>
+2:
+3: int main() {
+4:
+5: int valor1, valor2, temp;
+6:
+7: printf("Digite o primeiro valor: ");
+8: scanf("%d", &valor1);
+9:
+10: printf("Digite o segundo valor: ");
+11: scanf("%d", &valor2);
+12:
+13: printf("Valor original de valor1: %d\n", valor1);
+14: printf("Valor original de valor2: %d\n", valor2);
+15:
+16: temp = valor1;
+17: valor1 = valor2;
+18: valor2 = temp;
+19:
+20: printf("Novo valor de valor1: %d\n", valor1);
+21: printf("Novo valor de valor2: %d\n", valor2);
+22:
+23: return 0;
+24: }
