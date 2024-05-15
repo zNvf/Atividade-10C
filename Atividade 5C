@@ -1,0 +1,23 @@
+1: #include <stdio.h>
+2:
+3: int main() {
+4:
+5: float valor1, valor2, resultado;
+6:
+7: printf("Digite o primeiro valor: ");
+8: scanf("%f", &valor1);
+9:
+10: printf("Digite o segundo valor: ");
+11: scanf("%f", &valor2);
+12:
+13: if (valor2 == 0) {
+14: printf("Erro: divisao por zero!\n");
+15: } else {
+16:
+17: resultado = valor1 / valor2;
+18:
+19: printf("O resultado da divisao e: %.2f\n", resultado);
+20: }
+21:
+22: return 0;
+23: }
