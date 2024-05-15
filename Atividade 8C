@@ -1,0 +1,15 @@
+1: #include <stdio.h>
+2:
+3: int main() {
+4:
+5: float temperatura_fahrenheit, temperatura_celsius;
+6:
+7: printf("Digite a temperatura em Fahrenheit: ");
+8: scanf("%f", &temperatura_fahrenheit);
+9:
+10: temperatura_celsius = (temperatura_fahrenheit - 32) / 1.8;
+11:
+12: printf("A temperatura em Celsius e: %.2f\n", temperatura_celsius);
+13:
+14: return 0;
+15: }
