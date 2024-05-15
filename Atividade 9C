@@ -1,0 +1,22 @@
+1: #include <stdio.h>
+2: #include <math.h>
+3:
+4: int main() {
+5:
+6: float raio, diametro, comprimento, area;
+7:
+8: printf("Digite o valor do raio da circunferencia: ");
+9: scanf("%f", &raio);
+10:
+11: diametro = 2 * raio;
+12:
+13: comprimento = 2 * M_PI * raio;
+14:
+15: area = M_PI * pow(raio, 2);
+16:
+17: printf("O diametro da circunferencia e: %.2f\n", diametro);
+18: printf("O comprimento da circunferencia e: %.2f\n", comprimento);
+19: printf("A area da circunferencia e: %.2f\n", area);
+20:
+21: return 0;
+22: }
